@@ -18,7 +18,7 @@ export const bio = `I am a Ph.D. student in Artificial Intelligence at Ajou Univ
 export const links = {
   email: "sa20ra202124015@ajou.ac.kr",
   github: "https://github.com/caetanosergio",
-  googleScholar: "#", // TODO: add Google Scholar profile URL
+  googleScholar: "https://scholar.google.com/citations?user=3IMD-7AAAAAJ&hl=en",
   orcid: "https://orcid.org/0009-0001-4960-189X",
   linkedin: "https://www.linkedin.com/in/s%C3%A9rgio-caetano-94279117a",
   labWebsite: "http://nise.ajou.ac.kr/people.html",

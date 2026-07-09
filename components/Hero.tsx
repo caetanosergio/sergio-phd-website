@@ -30,6 +30,14 @@ export default function Hero() {
               GitHub
             </a>
             <a
+              href={links.googleScholar}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-md border border-border bg-surface px-3 py-1.5 text-foreground transition-colors hover:border-accent hover:text-accent"
+            >
+              Google Scholar
+            </a>
+            <a
               href={links.orcid}
               target="_blank"
               rel="noopener noreferrer"

@@ -17,6 +17,14 @@ export default function Contact() {
           GitHub
         </a>
         <a
+          href={links.googleScholar}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-accent hover:underline"
+        >
+          Google Scholar
+        </a>
+        <a
           href={links.orcid}
           target="_blank"
           rel="noopener noreferrer"
