@@ -4,7 +4,7 @@ import { links, site } from "@/content/profile";
 export default function Contact() {
   return (
     <Section id="contact" title="Contact">
-      <div className="grid gap-3 text-sm sm:grid-cols-2">
+      <div className="grid gap-3 text-base leading-relaxed sm:grid-cols-2">
         <a href={`mailto:${links.email}`} className="text-accent hover:underline">
           Email
         </a>

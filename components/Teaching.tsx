@@ -11,8 +11,8 @@ export default function Teaching() {
               <h3 className="text-base font-semibold text-foreground">{item.title}</h3>
               <span className="text-xs text-muted">{item.period}</span>
             </div>
-            <p className="text-sm text-muted">{item.institution}</p>
-            <ul className="mt-2 list-inside list-disc text-sm text-muted">
+            <p className="text-base leading-relaxed text-muted">{item.institution}</p>
+            <ul className="mt-2 list-inside list-disc text-base leading-relaxed text-muted">
               {item.details.map((detail) => (
                 <li key={detail}>{detail}</li>
               ))}
@@ -28,7 +28,7 @@ export default function Teaching() {
         {additionalTeaching.map((item) => (
           <li key={item.title}>
             <h4 className="text-sm font-semibold text-foreground">{item.title}</h4>
-            <p className="text-sm text-muted">{item.description}</p>
+            <p className="text-base leading-relaxed text-muted">{item.description}</p>
           </li>
         ))}
       </ul>

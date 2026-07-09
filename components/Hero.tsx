@@ -12,7 +12,7 @@ export default function Hero() {
           <p className="mt-2 text-lg text-accent">{site.role}</p>
           <p className="text-base text-muted">{site.institution}</p>
 
-          <p className="mt-6 max-w-xl text-sm leading-relaxed text-muted">{bio}</p>
+          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted">{bio}</p>
 
           <div className="mt-6 flex flex-wrap gap-3 text-sm">
             <a

@@ -8,7 +8,7 @@ export default function Service() {
         {service.map((item) => (
           <li key={item.title}>
             <h3 className="text-base font-semibold text-foreground">{item.title}</h3>
-            <p className="text-sm text-muted">{item.description}</p>
+            <p className="text-base leading-relaxed text-muted">{item.description}</p>
           </li>
         ))}
       </ul>

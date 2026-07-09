@@ -12,10 +12,10 @@ export default function Publications() {
               <Badge>{pub.status}</Badge>
               <span className="text-xs text-muted">{pub.year}</span>
             </div>
-            <h3 className="text-base font-semibold text-foreground">{pub.title}</h3>
-            <p className="text-sm text-muted">{pub.authors}</p>
-            <p className="text-sm italic text-muted">{pub.venue}</p>
-            <div className="mt-2 flex gap-4 text-sm">
+            <h3 className="text-lg font-semibold leading-snug text-foreground">{pub.title}</h3>
+            <p className="text-base leading-relaxed text-muted">{pub.authors}</p>
+            <p className="text-base italic leading-relaxed text-muted">{pub.venue}</p>
+            <div className="mt-2 flex gap-4 text-base">
               {pub.pdfUrl && (
                 <a href={pub.pdfUrl} className="text-accent hover:underline">
                   PDF

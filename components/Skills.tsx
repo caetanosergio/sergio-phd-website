@@ -8,7 +8,7 @@ export default function Skills() {
         {skills.map((group) => (
           <div key={group.category}>
             <dt className="text-sm font-semibold text-foreground">{group.category}</dt>
-            <dd className="text-sm text-muted">{group.items}</dd>
+            <dd className="text-base leading-relaxed text-muted">{group.items}</dd>
           </div>
         ))}
       </dl>

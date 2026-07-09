@@ -4,7 +4,7 @@ import { languages } from "@/content/profile";
 export default function Languages() {
   return (
     <Section id="languages" title="Languages">
-      <ul className="flex flex-wrap gap-3 text-sm">
+      <ul className="flex flex-wrap gap-3 text-base">
         {languages.map((language) => (
           <li
             key={language}
