@@ -27,6 +27,32 @@ export default function Contact() {
           </dd>
         </div>
         <div>
+          <dt className="text-muted">ORCID</dt>
+          <dd>
+            <a
+              href={links.orcid}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent hover:underline"
+            >
+              {links.orcid}
+            </a>
+          </dd>
+        </div>
+        <div>
+          <dt className="text-muted">LinkedIn</dt>
+          <dd>
+            <a
+              href={links.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent hover:underline"
+            >
+              LinkedIn
+            </a>
+          </dd>
+        </div>
+        <div>
           <dt className="text-muted">CV</dt>
           <dd>
             <a

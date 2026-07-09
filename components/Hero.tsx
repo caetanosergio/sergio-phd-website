@@ -75,7 +75,7 @@ export default function Hero() {
         <div className="h-32 w-32 shrink-0 overflow-hidden rounded-full border border-border bg-accent-soft sm:h-40 sm:w-40">
           <Image
             src={links.photo}
-            alt={site.name}
+            alt="Sergio Paulo Caetano profile photo"
             width={160}
             height={160}
             className="h-full w-full object-cover"

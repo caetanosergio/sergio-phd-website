@@ -19,11 +19,11 @@ export const links = {
   email: "sa20ra202124015@ajou.ac.kr",
   github: "https://github.com/caetanosergio",
   googleScholar: "#", // TODO: add Google Scholar profile URL
-  orcid: "#", // TODO: add ORCID profile URL
-  linkedin: "#", // TODO: add LinkedIn profile URL
+  orcid: "https://orcid.org/0009-0001-4960-189X",
+  linkedin: "https://www.linkedin.com/in/s%C3%A9rgio-caetano-94279117a",
   labWebsite: "http://nise.ajou.ac.kr/people.html",
-  cvPdf: "/Sergio_Paulo_Caetano_CV.pdf", // TODO: add the actual CV file at public/Sergio_Paulo_Caetano_CV.pdf
-  photo: "/profile-placeholder.svg", // TODO: replace with a real square head-and-shoulders portrait at public/profile.jpg or public/profile.png
+  cvPdf: "/CV.pdf",
+  photo: "/Profile_photo.jpeg",
 };
 
 export const nav = [
@@ -58,10 +58,6 @@ export const news: NewsItem[] = [
   {
     date: "2026-05",
     text: "Systematic literature review on fairness requirements engineering in progress.",
-  },
-  {
-    date: "2026-04",
-    text: "Seminar presentation placeholder — add title, venue, and date.",
   },
 ];
 
@@ -250,14 +246,14 @@ export const projects: ProjectItem[] = [
       "A systematic literature review mapping the state of the art in fairness requirements engineering for AI systems.",
   },
   {
-    title: "FairCredit / Fairness Readiness Assistant (Placeholder)",
+    title: "FairCredit / Fairness Readiness Assistant (Planned)",
     description:
-      "Placeholder for a fairness readiness assistant applied to credit/lending decision systems.",
+      "Planned fairness readiness assistant applied to credit/lending decision systems.",
   },
   {
-    title: "AI Education Materials (Placeholder)",
+    title: "AI Education Materials (Planned)",
     description:
-      "Placeholder for teaching materials developed for AI education at various levels.",
+      "Planned teaching materials for AI education across middle school, high school, and tutoring contexts.",
   },
 ];
 
