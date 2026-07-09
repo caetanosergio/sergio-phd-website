@@ -13,7 +13,7 @@ export default function Header() {
           {site.name}
         </a>
 
-        <nav className="hidden flex-wrap justify-end gap-x-5 gap-y-1 lg:flex">
+        <nav className="hidden flex-wrap justify-end gap-x-5 gap-y-1 xl:flex">
           {nav.map((item) => (
             <a
               key={item.href}
@@ -30,7 +30,7 @@ export default function Header() {
           aria-label="Toggle navigation menu"
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
-          className="flex flex-col gap-1.5 lg:hidden"
+          className="flex flex-col gap-1.5 xl:hidden"
         >
           <span className="h-0.5 w-6 bg-foreground" />
           <span className="h-0.5 w-6 bg-foreground" />
@@ -39,7 +39,7 @@ export default function Header() {
       </div>
 
       {open && (
-        <nav className="flex flex-col gap-1 border-t border-border px-6 py-3 lg:hidden">
+        <nav className="flex flex-col gap-1 border-t border-border px-6 py-3 xl:hidden">
           {nav.map((item) => (
             <a
               key={item.href}

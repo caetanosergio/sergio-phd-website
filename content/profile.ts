@@ -164,14 +164,14 @@ export const publications: Publication[] = [
     title: "Fairness Requirements Engineering for AI-Based Sociotechnical Systems: A Systematic Literature Review",
     authors: "Sergio Paulo Caetano, Seok-Won Lee",
     venue: "Manuscript in preparation",
-    status: "Manuscript in progress / under review",
+    status: "Manuscript in preparation",
     year: "2026",
   },
   {
     title: "MIFF: A Multidimensional Iterative Fairness Framework for Requirements Engineering",
     authors: "Sergio Paulo Caetano, Seok-Won Lee",
     venue: "Manuscript in preparation",
-    status: "Working paper",
+    status: "Manuscript in preparation",
     year: "2026",
   },
 ];

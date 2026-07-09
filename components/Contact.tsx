@@ -9,7 +9,7 @@ export default function Contact() {
           <dt className="text-muted">Email</dt>
           <dd>
             <a href={`mailto:${links.email}`} className="text-accent hover:underline">
-              {links.email}
+              Email
             </a>
           </dd>
         </div>
@@ -22,7 +22,7 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="text-accent hover:underline"
             >
-              {links.github}
+              GitHub
             </a>
           </dd>
         </div>
@@ -35,7 +35,7 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="text-accent hover:underline"
             >
-              {links.orcid}
+              ORCID
             </a>
           </dd>
         </div>
@@ -61,7 +61,7 @@ export default function Contact() {
               rel="noopener noreferrer"
               className="text-accent hover:underline"
             >
-              Download CV (PDF)
+              CV (PDF)
             </a>
           </dd>
         </div>
