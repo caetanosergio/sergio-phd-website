@@ -2,6 +2,8 @@
 
 A static, single-page academic homepage built with Next.js (App Router), TypeScript, and Tailwind CSS. No backend, no database, no environment variables.
 
+<!-- Deployed on Vercel with automatic production deploys on push to main. -->
+
 ## Tech stack
 
 - Next.js (App Router, static rendering)
