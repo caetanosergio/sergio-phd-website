@@ -164,14 +164,14 @@ export const publications: Publication[] = [
     title: "Fairness Requirements Engineering for AI-Based Sociotechnical Systems: A Systematic Literature Review",
     authors: "Sergio Paulo Caetano, Seok-Won Lee",
     venue: "Manuscript under review",
-    status: "Under review",
+    status: "Published",
     year: "2026",
   },
   {
     title: "Fairness-Relevant Context Mining for ML-Enabled Systems",
     authors: "Sergio Paulo Caetano, Seok-Won Lee",
     venue: "Manuscript in preparation",
-    status: "Manuscript in preparation",
+    status: "Under review",
     year: "2026",
   },
 ];
