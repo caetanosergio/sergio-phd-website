@@ -57,7 +57,7 @@ export const news: NewsItem[] = [
   },
   {
     date: "2026-05",
-    text: "Systematic literature review on fairness requirements engineering in progress.",
+    text: "Systematic literature review on fairness requirements engineering in published.",
   },
 ];
 
