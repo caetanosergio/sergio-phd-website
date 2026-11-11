@@ -164,7 +164,7 @@ export const publications: Publication[] = [
     title: "Fairness Requirements Engineering for AI-Based Sociotechnical Systems: A Systematic Literature Review",
     authors: "Sergio Paulo Caetano, Seok-Won Lee",
     venue: "Journal of Systems and Software",
-    status: "Published",
+    status: "Journal paper",
     year: "2026",
   },
   {
