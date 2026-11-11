@@ -48,10 +48,10 @@ export type NewsItem = {
 
 export const news: NewsItem[] = [
   {
-    {
     date: "2026-08",
     text: "Systematic literature review on fairness requirements engineering published.",
   },
+  {
     date: "2026-07",
     text: "Personal Ph.D. website launched.",
   },
