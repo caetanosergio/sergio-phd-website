@@ -56,8 +56,8 @@ export const news: NewsItem[] = [
     text: "Continued research progress on MIFF (Multidimensional Iterative Fairness Framework).",
   },
   {
-    date: "2026-05",
-    text: "Systematic literature review on fairness requirements engineering in published.",
+    date: "2026-08",
+    text: "Systematic literature review on fairness requirements engineering published.",
   },
 ];
 
