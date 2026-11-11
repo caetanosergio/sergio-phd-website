@@ -48,16 +48,16 @@ export type NewsItem = {
 
 export const news: NewsItem[] = [
   {
+    {
+    date: "2026-08",
+    text: "Systematic literature review on fairness requirements engineering published.",
+  },
     date: "2026-07",
     text: "Personal Ph.D. website launched.",
   },
   {
     date: "2026-06",
     text: "Continued research progress on MIFF (Multidimensional Iterative Fairness Framework).",
-  },
-  {
-    date: "2026-08",
-    text: "Systematic literature review on fairness requirements engineering published.",
   },
 ];
 
