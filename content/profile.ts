@@ -58,7 +58,7 @@ export const news: NewsItem[] = [
   {
     date: "2026-06",
     text: "Continued research progress on MIFF (Multidimensional Iterative Fairness Framework).",
-  },
+  }
 ];
 
 export type EducationItem = {
